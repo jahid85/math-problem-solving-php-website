@@ -1,0 +1,6 @@
+To run this project you have to:
+--> install xaamp software for local server and Mysql database
+--> copy the Math folder and paste is on your htdoc folder (it located in your xaamp installation folder)
+--> run sql file named "practicedatabase" in you Mysql database section
+-->Open your browser and brows this link : http://localhost/Math/index.php
+--> I hope it will run successfully.
