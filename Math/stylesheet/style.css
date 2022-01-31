@@ -1,0 +1,95 @@
+
+div#content_wrapper{
+	height:50px;
+	background:#c0bfff;	
+	margin-bottom:50px;
+}
+div#image{
+	
+	float:left;
+	width:300px;
+}
+div#all_blocks{
+	float:right;
+	display:inline-block
+}
+/*
+img{
+	position:absolute;
+	margin-left:50px;
+	height:50px;
+	width:80px;
+}
+*/
+div#all_blocks ul{
+	list-style:none;
+	float:right;
+}
+nav#all_blocks ul li{
+	
+	display:inline-block;
+	font-family:verdana;
+	background:#e5e5e5;
+	font-size:17px;
+}
+nav#all_blocks ul li a:hover{
+	background:#333;
+	color:red;
+}
+nav#all_blocks ul li a{
+	text-decoration:none;
+	float:right; 
+	color:#ac0ded;
+	display:block;
+	text-align:center;
+	padding:15px 25px;
+}
+
+nav#all_blocks ul li input[type="text"] {
+    
+    max-width: 400px;
+    font-size: 20px;
+    height:100%;
+    
+}
+div#login_box{
+	margin-top:60px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:20px;
+	padding:30px;
+	width:350px;
+	background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+	border: 1px tomato solid;
+	border-radius:10px;
+	
+	
+}
+.login_input{
+     padding:10px;
+	 width:175px;
+	 margin:5px;
+	 margin-right: 10px;
+	 
+}
+/* this css for design sign-up page*/
+div#signup_box{
+	max-width:600px;
+	height:auto;
+	background: #e1f4fa;
+    border: .2px solid green;
+	padding:15px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	margin-bottom:20px;
+	border-radius:15px;
+}
+/* this is for problem body structure */
+
+div#problem_structure{
+	width:80px;
+	margin:auto;
+	border:1px solid green;
+	background: #e1f4fa;
+}
